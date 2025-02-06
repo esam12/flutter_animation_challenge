@@ -1,16 +1,49 @@
-# flutter_animation_challenge_3
+# Flutter 3D Rotating Cube
 
-A new Flutter project.
+This Flutter project demonstrates a 3D rotating cube using the `Transform` widget and `Matrix4` for applying perspective and rotation transformations. The cube continuously rotates along the X, Y, and Z axes using animation controllers.
+![Flutter Version](https://img.shields.io/badge/Flutter-3.27-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+## Features
+- Uses `AnimationController` for smooth rotation.
+- Applies transformations using `Matrix4`.
+- Creates a cube using six `Container` widgets with different colors.
+- Uses `AnimatedBuilder` to rebuild the widget tree efficiently.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+Ensure you have Flutter installed on your system.
 
-A few resources to get you started if this is your first Flutter project:
+- Install Flutter: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
+- Clone the repository:
+  ```sh
+  git clone https://github.com/yourusername/flutter_3d_cube.git
+  cd flutter_3d_cube
+  ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Running the Application
+Run the app using the following command:
+```sh
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## File Structure
+```
+flutter_3d_cube/
+│-- lib/
+│   │-- main.dart  # Entry point of the application
+│-- pubspec.yaml   # Dependencies
+│-- README.md      # Documentation
+```
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Video
+<video src="https://github.com/user-attachments/assets/de85d4e5-76c7-438e-a248-cf21e26182e8" 
+       width="500" 
+       height="350" 
+       controls>
+</video>
+
